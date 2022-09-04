@@ -90,7 +90,7 @@ const Another3d = () => {
               </p>
             </motion.div>
           </div>
-          <div className="flex items-end w-80 justify-end">
+          <div className="flex items-end w-80 justify-end pb-14">
             <motion.div
               className="text-end"
               initial={{ opacity: 0, translateY: 5 }}
