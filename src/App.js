@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+
+//pages
+import Home from "./Pages/Home";
+import Orbit from "./Pages/Orbit";
+import Textanim from "./Pages/Textanim";
+import Another3d from "./Pages/Another3d";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="orbit" element={<Orbit />} />
+        <Route path="text" element={<Textanim />} />
+        <Route path="samurai" element={<Another3d />} />
+      </Routes>
     </div>
   );
 }

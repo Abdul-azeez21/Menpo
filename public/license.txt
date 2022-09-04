@@ -1,0 +1,11 @@
+Model Information:
+* title:	Samurai Mask Model 2
+* source:	https://sketchfab.com/3d-models/samurai-mask-model-2-70a43b389819494f9fa23065ede03afc
+* author:	flioink (https://sketchfab.com/flioink)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Samurai Mask Model 2" (https://sketchfab.com/3d-models/samurai-mask-model-2-70a43b389819494f9fa23065ede03afc) by flioink (https://sketchfab.com/flioink) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
