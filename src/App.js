@@ -1,19 +1,17 @@
 import { Route, Routes } from "react-router-dom";
 
 //pages
-// import Home from "./Pages/Home";
-// import Orbit from "./Pages/Orbit";
-// import Textanim from "./Pages/Textanim";
-import Another3d from "./Pages/Another3d";
+import Three from "./components/three";
+import Front from "./Pages/Front";
+import Another3d from "./components/Another3d";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        {/* <Route path="home" element={<Home />} />
-        <Route path="orbit" element={<Orbit />} />
-        <Route path="text" element={<Textanim />} /> */}
-        <Route path="/" element={<Another3d />} />
+        <Route path="/" element={<Front />} />
+        <Route path="three" element={<Three />} />
+        <Route path="vvv" element={<Another3d />} />
       </Routes>
     </div>
   );
